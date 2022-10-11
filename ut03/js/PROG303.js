@@ -8,16 +8,15 @@ let usuario2 = {
     curso: '2BACH',
     }
 function intersectObjects(obj1, obj2){
-    let resultado = {
+    let resultado = {};
 
-    }
     for( let key in obj1 ){
         if(key in obj2){
-            resultado.key = undefined;
+            resultado [key] = 0;
         }
     }
-    alert(resultado);
+    return resultado;
 }
 let objeto1 = prompt ("escriba uno de los dos objetos que desea pasar por pantalla: ");
 let objeto2 = prompt ("escriba el otro objeto que desea pasar por pantalla: ");
-alert( intersectObjects(objeto1, objeto2) );
+console.log( intersectObjects(objeto1, objeto2) );

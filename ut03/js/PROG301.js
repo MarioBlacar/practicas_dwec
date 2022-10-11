@@ -1,12 +1,10 @@
 let usuario = {
     nombre: 'Mario',
     apellido: 'Blasco',
-    }
-function cloneObject(obj){
-    let resultado = {
-        ...obj,
     };
-    alert(resultado);
-}
+function cloneObject(obj){
+    return {...obj};
+};
 let objeto = prompt ("escriba el objeto que desea pasar por pantalla: ");
-alert( cloneObject(objeto) );
+let clone = cloneObject(objeto);
+console.log( clone );

@@ -3,14 +3,13 @@ let usuario1 = {
     apellido: 'Blasco',
     }
 function removeUndefined(a){
-    let resultado = {
-
-    }
+    let resultado = {};
+    
     for( let key in a ){
         if(a[key] != undefined){
-            resultado.key = a[key];
+            resultado[key] = a[key];
     }
-    alert(resultado);
+    return(resultado);
 }
 }
 let objeto1 = prompt ("escriba uno de objetos que desea pasar por pantalla: ");
