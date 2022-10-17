@@ -4,15 +4,15 @@ function ascendDescend( len, min, max ){
     do{
         for(let contadorAsc=min;contadorAsc<=max;contadorAsc++){
             if(contador <= len){
-                resultado +=" ".contadorAsc;
+                resultado +=contadorAsc;
                 contador++;
             }else{
                 break;
             }
         }
-        for(let contadorDes=min;contadorDes<=max;contadorDes++){
+        for(let contadorDes=max;contadorDes>=min;contadorDes--){
             if(contador <= len){
-                resultado +=" ".contadorDes;
+                resultado +=contadorDes;
                 contador++;
             }else{
                 break;

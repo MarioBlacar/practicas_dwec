@@ -9,5 +9,5 @@ function replaceWithPosition(str){
     }
     return(resultado);
 }
-let objeto1 = prompt ("escriba la sentencia por la cual desea quitar las vocales existentes: ");
+let objeto1 = prompt ("Escriba una cadena en la cual quiera saber la poscion en el abecedario de esa letra: ");
 alert( replaceWithPosition(objeto1) );
