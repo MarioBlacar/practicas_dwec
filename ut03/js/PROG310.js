@@ -1,10 +1,8 @@
 function replaceWithPosition(str){
-    let resultado = {};
+    let resultado;
     for ( let char of str ) {
-        let i = 0;
         toLowerCase(char);
-        resultado[i] = charCodeAt(char) - charCodeAt("a");
-        i++;
+        resultado = parseInt(char,36) - 9;
 
     }
     return(resultado);

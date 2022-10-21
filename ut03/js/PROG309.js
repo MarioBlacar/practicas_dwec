@@ -1,11 +1,11 @@
 function removeVowels(str){
-    let resultado;
+    let resultado="";
     for ( let char of str ) {
-        if(char != "a" ||
-            char != "e" ||
-            char != "i" ||
-            char != "o" ||
-            char != "u"){
+        if(char != "a" && char != "A" &&
+            char != "e" && char != "E" &&
+            char != "i" && char != "I" && 
+            char != "o" && char != "O" &&
+            char != "u" && char != "U"){
             resultado += char;
         }else{
             resultado += " ";
