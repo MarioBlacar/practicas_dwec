@@ -1,8 +1,8 @@
 let nombres = ["Luis", "Sebastian", "Agus", "María"];
 
 function sendMessage(arr){
-    resultado = arr.array.forEach(element => {
-        alert(`Hola, ${element}, bienvenido al curso de DWEC`);
+    resultado = arr.forEach(element => {
+        return(`Hola, ${element}, bienvenido al curso de DWEC`);
     });
 
 }
