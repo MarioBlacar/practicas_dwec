@@ -16,5 +16,4 @@ function generateUsername(arr){
         item[nickname] = nickname + random1 + random2;
     });
 }
-let objeto1 = prompt ("escriba el nombre del array que quiere utilizar: ");
-alert( generateUsername(objeto1) );
+alert( generateUsername(usuario) );
